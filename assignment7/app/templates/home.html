@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+   
+{% block start %}
+<h1>This is home page</h1> 
+<ul>
+    {% for number in odd_list %}
+        <li>{{number}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
